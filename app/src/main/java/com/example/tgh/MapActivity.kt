@@ -21,8 +21,8 @@ class MapActivity : AppCompatActivity() {
         }
 
         val btnPost: Button = findViewById(R.id.post)
-        btnStart.setOnClickListener {
-            val intent = Intent(this, PostingActivity::class.java)
+        btnPost.setOnClickListener {
+            val intent = Intent(this, PostActivity::class.java)
             startActivity(intent)
         }
     }
