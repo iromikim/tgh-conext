@@ -10,9 +10,9 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.map)
 
-        //TODO val btnStart: Button =findViewById(R.id.btnStart)
+        val btnStart: Button =findViewById(R.id.button1)
 
-        //TODO btnStart.setOnClickListener {
+        btnStart.setOnClickListener {
             val intent = Intent(this,MapCloseupActivity::class.java)
             startActivity(intent)
     }

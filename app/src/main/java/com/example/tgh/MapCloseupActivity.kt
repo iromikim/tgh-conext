@@ -1,5 +1,6 @@
 package com.example.tgh
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,6 +16,12 @@ class MapCloseupActivity : AppCompatActivity() {
             finish()
         }
 
+        val btnToPost: Button =findViewById(R.id.button3)
+
+        btnToPost.setOnClickListener {
+        val intent = Intent(this,//TODO Activity::class.java)
+        startActivity(intent)
+        }
 
     }
 }
