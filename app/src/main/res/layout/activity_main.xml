@@ -15,12 +15,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/SignInButton"
-        android:layout_width="175dp"
-        android:layout_height="105dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="518dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
