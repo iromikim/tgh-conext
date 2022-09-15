@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TGH</string>
+    <string name="title">Bring your ideas together!</string>
+    <string name="button">START</string>
 </resources>
