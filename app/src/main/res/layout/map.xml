@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:alpha="0.85"
     android:background="@color/purple_200"
     tools:context=".MapActivity">
@@ -39,4 +39,72 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/bubble1"
+        android:layout_width="128dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="64dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:shape="oval"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/bubble_459842357437834567"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/bubble2"
+        android:layout_width="128dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="44dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:shape="oval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bubble_459842357437834567" />
+
+    <ImageButton
+        android:id="@+id/bubble3"
+        android:layout_width="128dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="360dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:shape="oval"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bubble_459842357437834567" />
+
+    <ImageButton
+        android:id="@+id/bubble4"
+        android:layout_width="128dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="36dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:shape="oval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bubble_459842357437834567" />
+
+    <ImageButton
+        android:id="@+id/bubble5"
+        android:layout_width="128dp"
+        android:layout_height="126dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:shape="oval"
+        app:srcCompat="@drawable/bubble_459842357437834567"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="540dp" /><![CDATA[
+
+    >
+
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>
