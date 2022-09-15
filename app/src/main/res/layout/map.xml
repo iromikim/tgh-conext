@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:alpha="0.9"
-        android:contentDescription="@string/spaceimage"
+        android:contentDescription="@string/space"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/bubble_459842357437834567"
-        tools:ignore="ImageContrastCheck" />
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/bubble2"
@@ -64,20 +64,22 @@
         android:shape="oval"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bubble_459842357437834567" />
+        app:srcCompat="@drawable/bubble_459842357437834567"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/bubble3"
         android:layout_width="128dp"
         android:layout_height="126dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="332dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         android:shape="oval"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bubble_459842357437834567" />
+        app:srcCompat="@drawable/bubble_459842357437834567"
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/bubble4"
@@ -90,21 +92,30 @@
         android:shape="oval"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bubble_459842357437834567" />
+        app:srcCompat="@drawable/bubble_459842357437834567"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/bubble5"
         android:layout_width="128dp"
         android:layout_height="126dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="96dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         android:shape="oval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bubble_459842357437834567"
-        tools:ignore="ImageContrastCheck"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="540dp" /><![CDATA[
+        tools:ignore="ImageContrastCheck,SpeakableTextPresentCheck" />
 
-    >
+    <Button
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="667dp" />
 
-]]>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
