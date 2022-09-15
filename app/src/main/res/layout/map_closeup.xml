@@ -28,4 +28,64 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/post1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="312dp"
+        android:background="#33FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_395476" />
+
+    <ImageButton
+        android:id="@+id/post2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="124dp"
+        android:background="#33FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_395476" />
+
+    <ImageButton
+        android:id="@+id/post5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="576dp"
+        android:background="#33FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_395476" />
+
+    <ImageButton
+        android:id="@+id/post4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="140dp"
+        android:background="#33FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_395476" />
+
+    <ImageButton
+        android:id="@+id/post3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="476dp"
+        android:background="#33FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_395476" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
