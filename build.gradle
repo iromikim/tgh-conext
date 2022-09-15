@@ -7,4 +7,6 @@ plugins {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
+
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    //from website https://qiita.com/Kaito-Dogi/items/b2da06db10a95fef84b3
