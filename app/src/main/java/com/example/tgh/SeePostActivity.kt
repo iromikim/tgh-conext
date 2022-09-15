@@ -10,7 +10,7 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
 
-class Post : AppCompatActivity() {
+class SeePostActivity : AppCompatActivity() {
     private lateinit var container: LinearLayout
 
     // キーボード表示を制御するためのオブジェクト
@@ -18,7 +18,7 @@ class Post : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.post)
+        setContentView(R.layout.seepost)
 
         // 背景のレイアウトを取得
         container = findViewById(R.id.container)

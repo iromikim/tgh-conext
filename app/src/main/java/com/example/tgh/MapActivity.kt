@@ -12,6 +12,8 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.map)
 
+
+        //firestoreとの対応が必要, bubble1? bubble2?
         val btnStart: Button = findViewById(R.id.bubble1)
         btnStart.setOnClickListener {
             val intent = Intent(this, MapCloseupActivity::class.java)
@@ -20,7 +22,7 @@ class MapActivity : AppCompatActivity() {
 
         val btnPost: Button = findViewById(R.id.post)
         btnStart.setOnClickListener {
-            val intent = Intent(this, PostActivity::class.java)
+            val intent = Intent(this, PostingActivity::class.java)
             startActivity(intent)
         }
     }
