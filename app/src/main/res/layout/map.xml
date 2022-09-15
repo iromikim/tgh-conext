@@ -10,10 +10,12 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/description"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/space_background_with_abstract_shape_stars_189033_30"
-        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="ImageContrastCheck"
         tools:visibility="visible" />
 </androidx.constraintlayout.widget.ConstraintLayout>
