@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.tgh">
 
+    s-permission android:name="android.permission.INTERNET " />
+    <!--上の行を追加-->
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
