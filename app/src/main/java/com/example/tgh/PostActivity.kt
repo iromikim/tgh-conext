@@ -1,10 +1,12 @@
 package com.example.tgh
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MotionEvent
 import android.view.inputmethod.InputMethodManager
+import android.widget.Button
 import android.widget.LinearLayout
 
 class PostActivity : AppCompatActivity() {
@@ -23,6 +25,17 @@ class PostActivity : AppCompatActivity() {
         // InputMethodManagerを取得
         inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 
+        val btnToPost: Button =findViewById(R.id.post)
+        btnToPost.setOnClickListener {
+            val intent = Intent(this,MapActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnToReturn: Button =findViewById(R.id.buttonforreturn)
+        btnToReturn.setOnClickListener {
+            val intent = Intent(this,MapActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
