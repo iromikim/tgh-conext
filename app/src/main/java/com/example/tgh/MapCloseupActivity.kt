@@ -19,7 +19,7 @@ class MapCloseupActivity : AppCompatActivity() {
         val btnToPost: Button =findViewById(R.id.post)
 
         btnToPost.setOnClickListener {
-        val intent = Intent(this,SeePostActivity::class.java)
+        val intent = Intent(this,PostActivity::class.java)
         startActivity(intent)
         }
 

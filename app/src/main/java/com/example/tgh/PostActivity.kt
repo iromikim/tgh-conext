@@ -5,12 +5,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MotionEvent
 import android.view.inputmethod.InputMethodManager
-import android.widget.Button
-import android.widget.EditText
 import android.widget.LinearLayout
-import android.widget.Toast
 
-class SeePostActivity : AppCompatActivity() {
+class PostActivity : AppCompatActivity() {
     private lateinit var container: LinearLayout
 
     // キーボード表示を制御するためのオブジェクト
@@ -18,7 +15,7 @@ class SeePostActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.seepost)
+        setContentView(R.layout.post)
 
         // 背景のレイアウトを取得
         container = findViewById(R.id.container)
