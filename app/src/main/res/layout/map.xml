@@ -4,18 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:alpha="0.85"
+    android:background="@color/purple_200"
     tools:context=".MapActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/description"
+        android:alpha="5"
+        android:contentDescription="@string/spaceimage"
         android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/space_background_with_abstract_shape_stars_189033_30"
-        tools:ignore="ImageContrastCheck"
-        tools:visibility="visible" />
+        app:srcCompat="@drawable/space" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
+        android:background="#8003DAC5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#CCFFFFFF"
+        android:fontFamily="monospace"
+        android:text="Type a keyword"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
