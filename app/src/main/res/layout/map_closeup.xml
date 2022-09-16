@@ -31,10 +31,10 @@
 
     <ImageButton
         android:id="@+id/post1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="312dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="272dp"
         android:background="#33FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,10 +44,10 @@
 
     <ImageButton
         android:id="@+id/post2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="124dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
         android:background="#33FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,10 +57,10 @@
 
     <ImageButton
         android:id="@+id/post5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="576dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="496dp"
         android:background="#33FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,10 +70,10 @@
 
     <ImageButton
         android:id="@+id/post4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="280dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="92dp"
         android:background="#33FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,15 +83,65 @@
 
     <ImageButton
         android:id="@+id/post3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="476dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="336dp"
         android:background="#33FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/_395476"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/post2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/post2"
+        app:layout_constraintEnd_toEndOf="@+id/post2"
+        app:layout_constraintStart_toStartOf="@+id/post2"
+        app:layout_constraintTop_toTopOf="@+id/post2" />
+
+    <TextView
+        android:id="@+id/post5text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/post5"
+        app:layout_constraintEnd_toEndOf="@+id/post5"
+        app:layout_constraintStart_toStartOf="@+id/post5"
+        app:layout_constraintTop_toTopOf="@+id/post5" />
+
+    <TextView
+        android:id="@+id/post1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/post1"
+        app:layout_constraintEnd_toEndOf="@+id/post1"
+        app:layout_constraintStart_toStartOf="@+id/post1"
+        app:layout_constraintTop_toTopOf="@+id/post1" />
+
+    <TextView
+        android:id="@+id/post3text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/post3"
+        app:layout_constraintEnd_toEndOf="@+id/post3"
+        app:layout_constraintStart_toStartOf="@+id/post3"
+        app:layout_constraintTop_toTopOf="@+id/post3" />
+
+    <TextView
+        android:id="@+id/post4text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/post4"
+        app:layout_constraintEnd_toEndOf="@+id/post4"
+        app:layout_constraintStart_toStartOf="@+id/post4"
+        app:layout_constraintTop_toTopOf="@+id/post4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
