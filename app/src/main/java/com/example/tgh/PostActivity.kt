@@ -52,7 +52,7 @@ class PostActivity : AppCompatActivity() {
         //ボタンを押したとき
         val btnStart: Button = findViewById(R.id.post)
         btnStart.setOnClickListener {
-           val user=UserData(id="testuser", contents ="test",tag="design")
+            val user = UserData(id = "testuser", contents = "test", tag = "design")
             //setvalueを使いたい
             Firebase.firestore.collection("UserData")
                 .add(user)
@@ -65,8 +65,6 @@ class PostActivity : AppCompatActivity() {
         }
 
     }
-
-
 
 
     // 画面タップ時に呼ばれる
@@ -83,10 +81,4 @@ class PostActivity : AppCompatActivity() {
 
         return false
     }
-<<<<<<< HEAD
-=======
-
-    private val database : FirebaseFirestore get() = FirebaseFirestore.getInstance()
-
->>>>>>> 330be7d953e5bb2640265077f9e6eb63e76e3af6
 }

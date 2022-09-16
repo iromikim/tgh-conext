@@ -16,12 +16,16 @@ class MapCloseupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.map_closeup)
+        val tag=intent.getStringExtra("bubble_tag")
 
         Firebase.firestore.collection("UserData")
             .get()
             .addOnSuccessListener { result ->
 
-                val contents = result.documents.map { it.data?.get("contents").toString() }
+                val contents = result.documents.filter{
+                    Log.d("Designing",tag!!)
+                    tag==it.data?.get("tag").toString()
+                }.map { it.data?.get("contents").toString() }
                 val posttexts = listOf<TextView>(
                     findViewById<TextView>(R.id.post1text),
                     findViewById<TextView>(R.id.post2text),
