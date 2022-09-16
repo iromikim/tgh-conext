@@ -4,8 +4,8 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.widget.AppCompatImageButton
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -19,8 +19,17 @@ class MapActivity : AppCompatActivity() {
         Firebase.firestore.collection("UserData")
             .get()
             .addOnSuccessListener { result ->
-                for (document in result) {
-                   Log.d("Tag",  document.data.get("tag").toString() )
+                val tags = result.documents.map { it.data?.get("tag").toString() }
+                val bubbletexts = listOf<TextView>(
+                    findViewById<TextView>(R.id.bubble1text),
+                    findViewById<TextView>(R.id.bubble2text),
+                    findViewById<TextView>(R.id.bubble3text),
+                    findViewById<TextView>(R.id.bubble4text),
+                    findViewById<TextView>(R.id.bubble5text),
+                )
+                tags.forEachIndexed { index, s ->
+                    if (index >= bubbletexts.size) return@forEachIndexed
+                    bubbletexts[index].text = s
                 }
             }
 
@@ -31,7 +40,7 @@ class MapActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnPost: Button  = findViewById(R.id.post)
+        val btnPost: Button = findViewById(R.id.post)
         btnPost.setOnClickListener {
             val intent = Intent(this, PostActivity::class.java)
             startActivity(intent)

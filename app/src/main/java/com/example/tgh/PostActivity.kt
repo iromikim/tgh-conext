@@ -83,4 +83,10 @@ class PostActivity : AppCompatActivity() {
 
         return false
     }
+<<<<<<< HEAD
+=======
+
+    private val database : FirebaseFirestore get() = FirebaseFirestore.getInstance()
+
+>>>>>>> 330be7d953e5bb2640265077f9e6eb63e76e3af6
 }

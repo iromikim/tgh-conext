@@ -121,5 +121,65 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
+    <TextView
+        android:id="@+id/bubble5text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bubble5"
+        app:layout_constraintEnd_toEndOf="@+id/bubble5"
+        app:layout_constraintStart_toStartOf="@+id/bubble5"
+        app:layout_constraintTop_toTopOf="@+id/bubble5" />
+
+    <TextView
+        android:id="@+id/bubble1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bubble1"
+        app:layout_constraintEnd_toEndOf="@+id/bubble1"
+        app:layout_constraintStart_toStartOf="@+id/bubble1"
+        app:layout_constraintTop_toTopOf="@+id/bubble1" />
+
+    <TextView
+        android:id="@+id/bubble3text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bubble3"
+        app:layout_constraintEnd_toEndOf="@+id/bubble3"
+        app:layout_constraintStart_toStartOf="@+id/bubble3"
+        app:layout_constraintTop_toTopOf="@+id/bubble3" />
+
+    <TextView
+        android:id="@+id/bubble2text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bubble2"
+        app:layout_constraintEnd_toEndOf="@+id/bubble2"
+        app:layout_constraintStart_toStartOf="@+id/bubble2"
+        app:layout_constraintTop_toTopOf="@+id/bubble2" />
+
+    <TextView
+        android:id="@+id/bubble4text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bubble4"
+        app:layout_constraintEnd_toEndOf="@+id/bubble4"
+        app:layout_constraintStart_toStartOf="@+id/bubble4"
+        app:layout_constraintTop_toTopOf="@+id/bubble4" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
