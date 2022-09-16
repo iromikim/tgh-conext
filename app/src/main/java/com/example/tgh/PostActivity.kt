@@ -53,8 +53,7 @@ class PostActivity : AppCompatActivity() {
         val btnStart: Button = findViewById(R.id.post)
         btnStart.setOnClickListener {
 
-           val user=UserData(id="testuser", contents = "help me study math!",tag="studying")
-
+            val user = UserData(id = "testuser", contents = "help me study math!", tag = "studying")
 
 
             //setvalueを使いたい
@@ -85,3 +84,5 @@ class PostActivity : AppCompatActivity() {
 
         return false
     }
+}
+
