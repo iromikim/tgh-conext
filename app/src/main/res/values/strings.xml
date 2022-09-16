@@ -9,6 +9,9 @@
     <string name="returnButton">戻る</string>
     <string name="editPostContent">投稿したい内容を入力してください</string>
     <string name="addHashtag">ハッシュタグを追加</string>
+    <string name="username">UserName</string>
+    <string name="postcontent">投稿したい内容を入力してください</string>
+    <string name="hashtag">ハッシュタグを追加</string>
     <string name="userName">UserName</string>
     <string name="title_activity_login">LoginActivity</string>
     <!-- Strings used for fragments for navigation -->
