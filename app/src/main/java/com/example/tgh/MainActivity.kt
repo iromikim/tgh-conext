@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.google.firebase.FirebaseApp
+import com.google.firebase.FirebaseOptions
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +16,12 @@ class MainActivity : AppCompatActivity() {
         btnStart.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
             startActivity(intent)
+
+            FirebaseApp.initializeApp(this, FirebaseOptions.Builder()
+                .setApplicationId("1:711191469999:android:f8ce87dd9830ec1f33595a")
+                .setApiKey("AIzaSyAF5I5cm0XMYjz8mvSPWjMbdK-VsEsTlos")
+                .setProjectId("team-31-fe45d")
+                .build())
         }
     }
 }

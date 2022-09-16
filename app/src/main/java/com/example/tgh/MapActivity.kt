@@ -4,8 +4,11 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.appcompat.widget.AppCompatImageButton
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class MapActivity : AppCompatActivity() {
     @SuppressLint("WrongViewCast")
@@ -13,6 +16,13 @@ class MapActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.map)
 
+        Firebase.firestore.collection("UserData")
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                   Log.d("Tag",  document.data.get("tag").toString() )
+                }
+            }
 
         //firestoreとの対応が必要, bubble1? bubble2?
         val btnStart: AppCompatImageButton = findViewById(R.id.bubble1)
