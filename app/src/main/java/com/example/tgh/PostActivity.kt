@@ -57,20 +57,5 @@ class PostActivity : AppCompatActivity() {
     }
 
     private val database : FirebaseFirestore get() = FirebaseFirestore.getInstance()
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        //binding =
 
-        //ボタンを押したとき
-        binding.post.setOnClickListener{
-
-            val task = UserData(
-                title
-            )
-            db.collection("Users")
-                .add(task)
-
-                }
-        }
-    }
 }
