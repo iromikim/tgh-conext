@@ -1,7 +1,19 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TGH</string>
     <string name="title">Bring your ideas together!</string>
     <string name="button">START</string>
     <string name="description">TODO</string>
     <string name="space">spaceimage</string>
+    <string name="post">Post</string>
+    <string name="username">UserName</string>
+    <string name="postcontent">投稿したい内容を入力してください</string>
+    <string name="hashtag">ハッシュタグを追加</string>
+    <string name="returnbutton">Return</string>
+    <string name="hastag"># Tag</string>
+    <string name="hashtag2"># Tag</string>
+    <string name="postview">TextView</string>
+    <string name="commentview">ここにコメントを入力してください</string>
+    <string name="usericon">usericon</string>
+    <string name="usernamedisplay">username</string>
+    <string name="returnbtn">return</string>
 </resources>
