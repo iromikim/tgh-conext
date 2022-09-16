@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.widget.AppCompatImageButton
 
 class MapCloseupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,9 +24,9 @@ class MapCloseupActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnToPost: Button =findViewById(R.id.post)
-        btnToPost.setOnClickListener {
-        val intent = Intent(this,PostActivity::class.java)
+        val btnToPostView: AppCompatImageButton =findViewById(R.id.post1)
+        btnToPostView.setOnClickListener {
+        val intent = Intent(this,ViewpostActivity::class.java)
         startActivity(intent)
         }
 
