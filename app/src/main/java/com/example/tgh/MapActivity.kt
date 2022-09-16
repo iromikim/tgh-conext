@@ -20,7 +20,11 @@ class MapActivity : AppCompatActivity() {
             .get()
             .addOnSuccessListener { result ->
                 for (document in result) {
-                   Log.d("Tag",  document.data.get("tag").toString() )
+                    Log.d("Design", document.data.get("tag").toString())
+                    Log.d("Programming", document.data.get("tag").toString())
+                    Log.d("Cycling",  document.data.get("tag").toString() )
+                    Log.d("Music",  document.data.get("tag").toString() )
+                    Log.d("Physics",  document.data.get("tag").toString() )
                 }
             }
 
@@ -31,7 +35,7 @@ class MapActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnPost: Button  = findViewById(R.id.post)
+        val btnPost: Button = findViewById(R.id.post)
         btnPost.setOnClickListener {
             val intent = Intent(this, PostActivity::class.java)
             startActivity(intent)
