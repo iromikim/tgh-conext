@@ -10,16 +10,22 @@ class MapCloseupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.map_closeup)
 
-        val btnBack : Button = findViewById(R.id.button2)
+       /** val btnBack : Button = findViewById(R.id.buttonforreturn)
         //戻るボタン（アクティビティの終了）
         btnBack.setOnClickListener {
             finish()
         }
+       */
+
+       val btnToReturn: Button =findViewById(R.id.buttonforreturn)
+        btnToReturn.setOnClickListener {
+            val intent = Intent(this,MapActivity::class.java)
+            startActivity(intent)
+        }
 
         val btnToPost: Button =findViewById(R.id.post)
-
         btnToPost.setOnClickListener {
-        val intent = Intent(this,//TODO Activity::class.java)
+        val intent = Intent(this,PostActivity::class.java)
         startActivity(intent)
         }
 

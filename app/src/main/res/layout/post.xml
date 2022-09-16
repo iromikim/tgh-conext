@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Post">
-
 
 
     <Button
@@ -15,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/postButton"
+        android:text="Post"
         android:textSize="16sp"
         app:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,8 +26,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="100dp"
-        android:text="@string/userName"
+        android:text="  UserName"
         android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
@@ -46,11 +45,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_text"
             android:layout_width="match_parent"
-            android:layout_height="79dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="150sp"
-            android:hint="@string/editPostContent"
+            android:hint="投稿したい内容を入力してください"
             android:maxLength="200"
-            android:textColorHint="#757575"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,9 +57,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edit_hashtag"
             android:layout_width="match_parent"
-            android:layout_height="74dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
-            android:hint="@string/addHashtag"
+            android:hint="ハッシュタグを追加"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/returnButton"
+        android:text="Return"
         android:textSize="16sp"
         app:backgroundTint="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
