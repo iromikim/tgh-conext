@@ -1,13 +1,25 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">TGH</string>
     <string name="title">Bring your ideas together!</string>
     <string name="button">START</string>
     <string name="description">TODO</string>
     <string name="space">spaceimage</string>
+
+    <string name="postButton">投稿する</string>
+    <string name="returnButton">戻る</string>
+    <string name="editPostContent">投稿したい内容を入力してください</string>
+    <string name="addHashtag">ハッシュタグを追加</string>
+    <string name="userName">UserName</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="post">Post</string>
-    <string name="username">UserName</string>
-    <string name="postcontent">投稿したい内容を入力してください</string>
-    <string name="hashtag">ハッシュタグを追加</string>
     <string name="returnbutton">Return</string>
     <string name="hastag"># Tag</string>
     <string name="hashtag2"># Tag</string>
