@@ -52,11 +52,11 @@ class PostActivity : AppCompatActivity() {
         //ボタンを押したとき
         val btnStart: Button = findViewById(R.id.post)
         btnStart.setOnClickListener {
-<<<<<<< HEAD
+
            val user=UserData(id="testuser", contents = "help me study math!",tag="studying")
-=======
-            val user = UserData(id = "testuser", contents = "test", tag = "design")
->>>>>>> 53ef1039d26406bf042a4899d731a617bc38545e
+
+
+
             //setvalueを使いたい
             Firebase.firestore.collection("UserData")
                 .add(user)
@@ -85,15 +85,3 @@ class PostActivity : AppCompatActivity() {
 
         return false
     }
-<<<<<<< HEAD
-/*<<<<<<< HEAD
-=======
-
-    private val database : FirebaseFirestore get() = FirebaseFirestore.getInstance()
-
->>>>>>> 330be7d953e5bb2640265077f9e6eb63e76e3af6
-
- */
-=======
->>>>>>> 53ef1039d26406bf042a4899d731a617bc38545e
-}
