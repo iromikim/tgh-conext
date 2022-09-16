@@ -96,9 +96,10 @@
 
     <TextView
         android:id="@+id/post2text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/post2"
         app:layout_constraintEnd_toEndOf="@+id/post2"
         app:layout_constraintStart_toStartOf="@+id/post2"
@@ -106,9 +107,10 @@
 
     <TextView
         android:id="@+id/post5text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/post5"
         app:layout_constraintEnd_toEndOf="@+id/post5"
         app:layout_constraintStart_toStartOf="@+id/post5"
@@ -116,9 +118,10 @@
 
     <TextView
         android:id="@+id/post1text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/post1"
         app:layout_constraintEnd_toEndOf="@+id/post1"
         app:layout_constraintStart_toStartOf="@+id/post1"
@@ -126,9 +129,10 @@
 
     <TextView
         android:id="@+id/post3text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/post3"
         app:layout_constraintEnd_toEndOf="@+id/post3"
         app:layout_constraintStart_toStartOf="@+id/post3"
@@ -136,9 +140,10 @@
 
     <TextView
         android:id="@+id/post4text"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/post4"
         app:layout_constraintEnd_toEndOf="@+id/post4"
         app:layout_constraintStart_toStartOf="@+id/post4"
