@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="postContent" type="id" />
-    <item name="userName" type="id" />
+    <item name="username" type="id" />
     <item name="tag" type="id" />
     <item name="tag2" type="id" />
     <item name="comment" type="id" />

@@ -14,7 +14,7 @@
         android:theme="@style/Theme.TGH"
         tools:targetApi="31">
         <activity
-            android:name=".ReadpostActivity"
+            android:name=".ViewpostActivity"
             android:exported="false" />
         <activity
             android:name=".PostActivity"
