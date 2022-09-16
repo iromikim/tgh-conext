@@ -16,4 +16,17 @@
     <string name="usericon">usericon</string>
     <string name="usernamedisplay">username</string>
     <string name="returnbtn">return</string>
+    <string name="login" />
+    <string name="loginbtn">Login</string>
+    <string name="loginbutton">ログイン</string>
+    <string name="email">E-mail</string>
+    <string name="newusers">新規登録画面へ</string>
+    <string name="nopassw">パスワードをお持ちでない方はこちら</string>
+    <string name="password">Password</string>
+    <string name="logingo">Login</string>
+    <string name="nousername">If you\'re not signed up already</string>
+    <string name="loginenter">Login</string>
+    <string name="register">Register</string>
+    <string name="emailad">Email</string>
+    <string name="loginentr">Login</string>
 </resources>
